@@ -7,4 +7,5 @@ Practica de HTML, CSS y JavaScript en una página web de servicios tecnológicos
 - Animación en la imagen con CSS
 
 ## Vista previa:
-![vistaprevia1](https://github.com/cindygnaedinger/kosolutions/assets/100149373/40db6472-ca07-46e3-8ac6-647c6cd61754)
+![vistaprevia](https://github.com/cindygnaedinger/kosolutions/assets/100149373/18bcff58-9059-463b-bdd8-9e37557b8402)
+
