@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=Lato:wght@400;700&family=Libre+Baskerville:wght@400;700&family=Montserrat:wght@400;600&display=swap');
+
+/*----VARIABLES----*/
+:root {
+    --color1: #1e214c;
+    --color1lg: #1e214c34;
+
+    --color2: #73e8b3;
+    --color2lg: #73e8b35d;
+    --color2-hover: hsl(153, 82%, 78%);
+
+
+    --color3: #fff;
+    --color3lg: #ffffff83;
+}
+
+/*----BASE----*/
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 800px;
+    font-family: 'Inter', sans-serif;
+    color: var(--color1);
+    background-color: var(--color3);
+    background-image: url(../imgs/bg-header.png);
+    background-position: 120% -850%;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color1);
+}
+
+ul {
+    list-style: url(../imgs/check-regular-24.png);
+}
+
+/*----HEADER----*/
+header {
+    height: 60px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    margin-left: 40px;
+}
+
+header nav a {
+    margin-right: 40px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+header nav a:hover {
+    color: var(--color3);
+}
+
+/*----BUTTONS----*/
+main h1 {
+    width: 135px;
+    margin: 0 auto 15px auto;
+    font-size: 2rem;
+}
+
+main nav {
+    width: 800px;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+main nav a {
+    padding: 12px;
+    background-color: var(--color3);
+    border-radius: 24px 40px;
+    border: 2px solid var(--color2);
+    transition: all 500ms;
+}
+
+main nav a:hover {
+    background-color: var(--color2-hover);
+    border: 2px solid var(--color3);
+}
+
+/*----BUTTONS----*/
+.services-card {
+    width: 800px;
+    margin: 15px auto;
+    background-color: var(--color3);
+    border-radius: 60px 100px;
+    text-align: center;
+    border: 2px solid var(--color2);
+}
+
+.services-card h2 {
+    padding-top: 5px;
+}
+
+.services-card span {
+    color: var(--color2);
+    font-weight: 800;
+    font-size: 1.7rem;
+}
+
+.services-card article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.services-card article img {
+    padding: 40px 0 40px 40px;
+    margin-bottom: 15px;
+}
+
+.services-card article div {
+    text-align: center;
+    margin-top: 20px;
+    text-align: left;
+    line-height: 2;
+
+}
